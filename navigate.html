@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Digital Library</title>
+    <link rel="stylesheet" href="tyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+  
+  <div class="menu-bar">
+    <div class="icon">    
+        <h2 class="logo"><a ><img src="https://images.vexels.com/media/users/3/216637/raw/5cb9c03787ab7860fdd5dc4d13a72043-digital-library-logo-design.jpg" alt="digital library logo" width="100%" height="90px"></a></h2>
+        </div>       
+<ul>
+
+    <a href="navigate.html"><li class="active"><em class="fa fa-home"></em>HOME</i></li></a>
+    <li><em class="fa fa-user"></em><a href="#">ABOUT</a>
+    <div class="sub-menu-1">
+    <ul>
+        <a href="mission.html"><li>MISSION</li></a>
+        <a href="team.html"><li>TEAM</li></a>
+        
+    </ul>
+    </div>
+        </li>
+<a href="king.html"><li><em class="fa fa-clone"></em>CATEGORIES</li></a>
+<a href="#dust"><li><em class="fa fa-address-book-o"></em>CONTACT US</li></a>
+<a href="login.html"><li><em class="fa fa-sign-in" aria-hidden="true"></em>LOGIN</li></a>
+<div class="night">
+<label  id="dark-change"></label></div>
+ </ul>
+</div>
+
+     
+     <div class="content">
+        <h1><h67>WELCOME TO</h67><br><span class="glow">DIGITAL LIBRARY</span><br>MODERN WAY OF GAINING <br>KNOWLEDGE</h1>
+
+        
+        <p class="par"> THE ONLY WEBSITE WHERE YOU CAN ACCESS<br> NUMBER OF BOOKS FOR FREE  
+            <br></p>
+
+            <a href="king.html"><button class="cn"><h90>EXPLORE</h90> <em class="fa fa-sign-in" aria-hidden="true"></em></button></a>
+
+           
+                <div class="form9">
+                  <form1>
+                  <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="libra.jpg" style="width:270px" height="370px">
+                      <div class="text">1/3</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="duraj.jpg" style="width:270px" height="370px" >
+                      <div class="text">2/3</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="rt.jpg" style="width:270px" height="370px">
+                      <div class="text">3/3</div>
+                    </div>
+                    
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                    </div>
+                   
+                    
+                
+                  
+                    
+                    <script>
+                    let slideIndex = 0;
+                    showSlides();
+                    
+                    function showSlides() {
+                      let i;
+                      let slides = document.getElementsByClassName("mySlides");
+                      let dots = document.getElementsByClassName("dot");
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      slideIndex++;
+                      if (slideIndex > slides.length) {slideIndex = 1}    
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                      setTimeout(showSlides, 3000); // Change image every 2 seconds
+                    }
+                    </script>                     
+                    </div>
+                  </form1>
+                      </div>
+
+
+                      <section><div class="glow1">
+                        Popular Books
+                      </div>
+                      <div class="main-scroll-div">
+                        
+                        <div>
+                          
+                            <button class="icons" onclick="scrolll()"> <i class="fas fa-angle-double-left"></i></button>
+                        </div>
+                        <div class="cover">
+                            <div class="scroll-images">
+                                <div class="child"><a href="https://books.sportuin.com/read/58293924/book-of-night-book-of-night-1"><img class="child-img" src="primary\mag7.jpg" alt="image"></a></div>
+                                <div class="child"><a href="C:\Users\Suraj\OneDrive\Desktop\libraryr\bookreader\h1.html"><img class="child-img" src="primary\mag8.jpg" alt="image"></a></div>
+                                <div class="child"><a href="run.pdf"><img class="child-img" src="primary\mag9.jpg" alt="image"></a></div>
+                                <div class="child"><img class="child-img" src="primary\mag5.jpg" alt="image"></div>
+                                <div class="child"><img class="child-img" src="primary\mag4.jpg" alt="image"></div>
+                                <div class="child"><img class="child-img" src="primary\mag3.jpg" alt="image"></div>
+                                <div class="child"><a href="https://ati.dae.gov.in/ati12052021_8.pdf"><img class="child-img" src="primary\mag6.jpg" alt="image"></a></div>
+                              
+                                <div class="child"><img class="child-img" src="primary\mag2.jpg" alt="image"></div>
+                                <div class="child"><img class="child-img" src="primary\mag1.jpg" alt="image"></div>
+                            
+                            </div>
+                        </div>
+                        <div>
+                            <button class="icons" onclick="scrollr()"> <i class="fas fa-angle-double-right"></i></button>
+                        </div>
+                    </div>
+                    </section>
+
+
+                    
+
+
+                    <script>
+                      function scrolll() {
+                          var left = document.querySelector(".scroll-images");
+                          left.scrollBy(-350, 0)
+                      }
+                  
+                      function scrollr() {
+                          var right = document.querySelector(".scroll-images");
+                          right.scrollBy(350, 0)
+                      }
+                  </script>
+
+                  
+  
+                  <section><div class="glow1">
+                    New Books
+                  </div>
+                  <div class="main-scroll-div">
+                    
+                    <div>
+                      
+                        <button class="icons" onclick="scrollll()"> <i class="fas fa-angle-double-left"></i></button>
+                    </div>
+                    <div class="cover">
+                        <div class="scroll-image">
+                            <div class="child"><img class="child-img" src="primary\mg1.jpg" alt="image"></div>
+                            <div class="child"><img class="child-img" src="primary\mg2.jpg" alt="image"></div>
+                            <div class="child"><img class="child-img" src="primary\mg3.jpg" alt="image"></div>
+                            <div class="child"><img class="child-img" src="primary\mg4.jpg" alt="image"></div>
+                            <div class="child"><img class="child-img" src="primary\mg5.jpg" alt="image"></div>
+                            <div class="child"><img class="child-img" src="primary\mg6.jpg" alt="image"></div>
+                            <div class="child"><img class="child-img" src="primary\mg7.jpg" alt="image"></div>
+                            <div class="child"><img class="child-img" src="primary\mg8.jpg" alt="image"></div>
+                        
+                        </div>
+                    </div>
+                    <div>
+                        <button class="icons" onclick="scrollrs()"> <i class="fas fa-angle-double-right"></i></button>
+                    </div>
+                </div>
+                </section>
+
+                  <script>
+                      function scrollll() {
+                          var left = document.querySelector(".scroll-image");
+                          left.scrollBy(-350, 0)
+                      }
+                  
+                      function scrollrs() {
+                          var right = document.querySelector(".scroll-image");
+                          right.scrollBy(350, 0)
+                      }
+                  </script>
+                  
+<section id="dust">
+            <div class="containe">
+              <h8>Contact us:</h8>
+                <div class="conten">
+                  <div class="left-side">
+                    <div class="address details">
+                      <i class='fa-solid fa-map-location-dot'></i>
+                      <div class="topic">Address</div>
+                      <div class="text-one"> AP SHAH INSTITUTE OF TECHNOLOGY</div>
+                      <div class="text-two">THANE (WEST)</div>
+                    </div>
+                    <div class="phone details">
+                      <i class="fas fa-phone-alt"></i>
+                      <div class="topic">Phone</div>
+                      <div class="text-one">+91 9967745203</div>
+                      <div class="text-two">+91 7738305400</div>
+                    </div>
+                    <div class="email details">
+                      <i class="fas fa-envelope"></i>
+                      <div class="topic">Email</div>
+                      <div class="text-one">surajmohityadav788@gmail.com</div>
+                      <div class="text-two">21102120.suraj.yadav@gmail.com</div>
+                    </div>
+                  </div>
+                  <div class="right-side">
+                    <div class="topic-text">QUERY:- Send us a Message</div>
+                    <p33>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p33>
+                  <form action="#">
+                    <div class="input-box">
+                      <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="input-box">
+                      <input type="text" placeholder="Enter your email">
+                    </div>
+                    <div class="input-box">
+                      <input type="text" placeholder="Enter the message">
+                    </div>
+                    <div class="input-box message-box">
+                      
+                    </div>
+                    <div class="butto">
+                      <input type="button" value="Send Now" >
+                    </div>
+                  </form>
+                </div>
+                </div>
+              </div>
+            </section>
+            <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+
+               
+</body>
+
+</html>
